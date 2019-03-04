@@ -15846,6 +15846,6 @@ function FindProxyForURL(url, host) {
 
     return proxy;
 }
-var proxy = "PROXY hq-proxy.dyinnovations.com:8888;SOCKS5 hq-proxy.dyinnovations.com:38900;PROXY hq-proxy.dyinnovations.com:8889 DIRECT";
+var proxy = "PROXY hq-proxy.dyinnovations.com:8888;SOCKS5 hq-proxy.dyinnovations.com:38900;PROXY hq-proxy.dyinnovations.com:8889; DIRECT";
 
 var direct = 'DIRECT;';
